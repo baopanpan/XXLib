@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11F9DDD82150E6DF00071A16 /* BPPTestViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9DDD72150E6DF00071A16 /* BPPTestViewCell.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11F9DDD62150E6DF00071A16 /* BPPTestViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPPTestViewCell.h; sourceTree = "<group>"; };
+		11F9DDD72150E6DF00071A16 /* BPPTestViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPPTestViewCell.m; sourceTree = "<group>"; };
 		173D7C1501F553AC85990AEE /* Pods-XXLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXLib_Tests/Pods-XXLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3ABB64A0E9CF9A65071D2502 /* Pods_XXLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59AA5EF5EF4EFE8173B24687 /* Pods-XXLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXLib_Tests/Pods-XXLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,10 +66,10 @@
 		855B86299C5B60B6689714F6 /* Pods-XXLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXLib_Example/Pods-XXLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9137C3C2FF5BA8C2C5EB2C41 /* Pods_XXLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FEF053B280E8B2B70589F13 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A360EA91BABC701D9FE7813D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9FEF053B280E8B2B70589F13 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A360EA91BABC701D9FE7813D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E3953B5000E6D250A56EC840 /* Pods-XXLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXLib_Example/Pods-XXLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F159127D1397F78095FC9AED /* XXLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XXLib.podspec; path = ../XXLib.podspec; sourceTree = "<group>"; };
+		F159127D1397F78095FC9AED /* XXLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XXLib.podspec; path = ../XXLib.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* BPPViewController.h */,
 				6003F5A6195388D20070C39A /* BPPViewController.m */,
+				11F9DDD62150E6DF00071A16 /* BPPTestViewCell.h */,
+				11F9DDD72150E6DF00071A16 /* BPPTestViewCell.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -299,15 +304,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-XXLib_Tests-checkManifestLockResult.txt",
 			);
@@ -321,15 +322,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XXLib_Example/Pods-XXLib_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/XXLib/XXLib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XXLib.framework",
 			);
@@ -343,15 +340,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-XXLib_Example-checkManifestLockResult.txt",
 			);
@@ -370,6 +363,7 @@
 				6003F59E195388D20070C39A /* BPPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* BPPViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				11F9DDD82150E6DF00071A16 /* BPPTestViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

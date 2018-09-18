@@ -8,7 +8,9 @@
 
 #import "BPPViewController.h"
 
-@interface BPPViewController ()
+
+@interface BPPViewController () 
+
 
 @end
 
@@ -17,7 +19,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    
+    
+}
+
+- (void)cellDidClick:(NSIndexPath *)indexPath data:(id)obj {
+    NSLog(@"%@",obj);
+}
+
+- (void)cellHeaderIconDidClick:(NSIndexPath *)indexPath data:(id)obj tag:(NSInteger)tag {
+    NSLog(@"%@",obj);
 }
 
 - (void)didReceiveMemoryWarning
