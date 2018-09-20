@@ -27,5 +27,9 @@
 #import "XXBaseViewController.h"
 #import "XXTableView.h"
 #import "UITableView+XXKit.h"
+#import "XXSingleTableView.h"
+#import "UITableViewCell+XXCell.h"
+#import "XXCellProtocol.h"
+#import "UITextView+XXPlaceholder.h"
 
 #endif /* XXKit_h */

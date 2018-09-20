@@ -69,7 +69,7 @@
 		9FEF053B280E8B2B70589F13 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A360EA91BABC701D9FE7813D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E3953B5000E6D250A56EC840 /* Pods-XXLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXLib_Example/Pods-XXLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F159127D1397F78095FC9AED /* XXLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XXLib.podspec; path = ../XXLib.podspec; sourceTree = "<group>"; };
+		F159127D1397F78095FC9AED /* XXLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XXLib.podspec; path = ../XXLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

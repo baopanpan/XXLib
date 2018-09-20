@@ -24,6 +24,7 @@
 #import "XXGuideViewController.h"
 #import "XXTabBarController.h"
 #import "XXKit.h"
+#import "UITextView+XXPlaceholder.h"
 #import "XXUniversal.h"
 #import "UITableViewCell+XXCell.h"
 #import "XXAlertCtl.h"
