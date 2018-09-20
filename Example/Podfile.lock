@@ -1,5 +1,5 @@
 PODS:
-  - XXLib (0.4.0)
+  - XXLib (0.6.0)
 
 DEPENDENCIES:
   - XXLib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XXLib: 986dfafc43bddc40d867f5198faead8ed3be8bae
+  XXLib: cfa7a3d705796c61043a110c9e4630d89bef693f
 
 PODFILE CHECKSUM: 05b4eda2ceda6823b7f64190990ff90a3085b3e1
 
