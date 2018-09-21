@@ -1,0 +1,16 @@
+PODS:
+  - XXLib (0.6.0)
+
+DEPENDENCIES:
+  - XXLib (from `../`)
+
+EXTERNAL SOURCES:
+  XXLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  XXLib: 86edf6b28a065dc50f01249f13c7a076c30990f9
+
+PODFILE CHECKSUM: 05b4eda2ceda6823b7f64190990ff90a3085b3e1
+
+COCOAPODS: 1.4.0.beta.2

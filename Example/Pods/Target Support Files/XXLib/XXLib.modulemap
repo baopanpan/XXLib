@@ -1,0 +1,6 @@
+framework module XXLib {
+  umbrella header "XXLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
