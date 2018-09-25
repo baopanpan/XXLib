@@ -7,66 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0270DF6291B0782289AC403A9FEA06AB /* XXImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DB4C1BDF84BCE6CC829AABE96204343 /* XXImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04A4B5D4D9654BE05271F79AFCE657F5 /* UIImage+XX_Image.m in Sources */ = {isa = PBXBuildFile; fileRef = AF53C628B0EA550C75672EB539B5F442 /* UIImage+XX_Image.m */; };
 		071FAC14FFC61E1D5F34B3A50563B350 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		07225E84BF711CFE11C9E34B204E4A20 /* XXTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3957C1DDC0DDBA969B135C344A301491 /* XXTableView.m */; };
-		0817BE7A075F0C1A5A79FE315F585B51 /* XXLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A9654634640FC036B22863B84E15EF /* XXLib-dummy.m */; };
-		0A7C9439071CE61B87D067D0B4EE7071 /* XXViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0252609208FB01630EC0CC330DC2C8EB /* XXViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CABDED7FD98E13A6B1595560FDA16F1 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA86128CC46AC42C669F69AA7363AB /* UIView+Frame.m */; };
-		1457C972EC18D2AB4B55EC03A8BB97DF /* UIView+XXToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D3A42B0B921DB3EF1E8BFBAF796382C /* UIView+XXToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17C818DF13BFF1B876BE1DB03760C8D4 /* XXViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1982BBE4CC4B417E9ABF1C5DA9C44B38 /* XXViewCell.m */; };
-		1DCA927038A3B9CBD5AA5E0B89BB22EF /* UITableView+XXKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 16333AD8B59ADE47FC9CB652AE632A72 /* UITableView+XXKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2440286DC98CD6D4F96AD8C6A51DB24A /* XXBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EECBB6EE3677D7008EEA12EA5C303C /* XXBaseNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2580A33BBCD90216B260163102F55CE5 /* XXAlertCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 198910444642D1BCDC25303DD265E020 /* XXAlertCtl.m */; };
-		25D2E75B145D92866FF190A20C2B0A51 /* XXLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C1FEB3D460242C5C65D982BD3703C5 /* XXLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26082C0C5BB64B6DFA62230C9BE3DE93 /* XXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AD2DF32431489B2F26EA47431F54A6 /* XXButton.m */; };
-		271359D77895FE7B60451141FCF54122 /* XXImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D8C5097C8EA0E24AEADD8A186CBB7 /* XXImageView.m */; };
-		382CF18AE20AF523423A206AA682A3B6 /* UITextView+XXPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = B2B3A13899B804CA0D696B7470A86667 /* UITextView+XXPlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BE4B584DB58D61B371C093093B00916 /* UITableViewCell+XXCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B84C7FECB6688A4E47A6105BDB1D1C85 /* UITableViewCell+XXCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40797A64E416FD12863DA17DAE88EB19 /* XXGuideViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A87E825145985D84B5BBB40106E953 /* XXGuideViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A4E8ACD1E4665BA0D670529335E1B04 /* NSObject+XXCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DAE500A230542E020C4C37DC54EC56 /* NSObject+XXCommon.m */; };
+		084C0C4825C05B154AADAF258AE098D1 /* XXImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1411CFDED2E1575C7951AAB32CB7438 /* XXImageView.m */; };
+		0964BB08CF1C9C529B59A536AB0A1420 /* XXLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 459047EF0330F7A41BE6DCFDA3E7D190 /* XXLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C5DE06F5CE6099C02E0B149510ABFB0 /* NSObject+Language.h in Headers */ = {isa = PBXBuildFile; fileRef = D33638DAA3214267A47A475B9EE086A7 /* NSObject+Language.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		137872E2475427F022CB2B62A14118DB /* XXLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B16271519D63940FC033BEFA33BD078 /* XXLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15346C78E47FDEF3AB918038B341CBA6 /* NSObject+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BDC962B1EF26002736A02E1B44D716 /* NSObject+Language.m */; };
+		1CE2D2E3DD19D294A1510481C89BF244 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA8426966CF2DB259CBE113D2D17AF4 /* UIView+Frame.m */; };
+		1E6850D8AD04C27F606CF9D273E0380E /* UIView+XXToast.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7BD085D40EB6B814DAFA6289E771CC /* UIView+XXToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EB2E8F31156FFC96BCA7492AA13A2B6 /* NSDate+XXDate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DDAA3CD7D59D727543CE76BF1C85FC /* NSDate+XXDate.m */; };
+		1F63CBA10BA074D43BE458A9DC0BAA27 /* XXUniversal.h in Headers */ = {isa = PBXBuildFile; fileRef = CE05359E42199C2A4F38008F56986905 /* XXUniversal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2524279FBE6105BFD823C165E3509C31 /* NSString+XXString.h in Headers */ = {isa = PBXBuildFile; fileRef = A16274D91C30CEAE71537B042DAC6175 /* NSString+XXString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303A40CBE43A1D8EA9C420132B7CD8AC /* XXTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8F214D7E82EB0BEC7BD3EB201BE0E4 /* XXTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3185A28F7CFC16A87FF75DFA33146279 /* NSString+XXString.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E66E65F159E1124AC4027634E5166B /* NSString+XXString.m */; };
+		319910C779F41A9402377182050D7DD2 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = BCE30AF32D13B5FC9D9265235BA9B03C /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		323D654054F544259D95DBE141EA327C /* NSDate+XXDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1D201CF98F879FCB1145937E93A262 /* NSDate+XXDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37492B978CD4B97E6161D93F5DB8A6F4 /* XXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BD9DB7BB69520C7D23639899F9DCBF /* XXLabel.m */; };
+		3A229D9780FDC2604999FAE5B7826E8F /* XXTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C17C8BFE8E7DC8D1E283AA3F41F7E3 /* XXTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B4B050B3C05632C22C2765CD56C10EC /* XXSingleTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = E688D02AC9173EC44CCEA6598CEF920C /* XXSingleTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F3DE47396712407A14DE954101C60C2 /* XXGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D9C83AE9DCAF2C1B968DC00918AB4A /* XXGuideViewController.m */; };
+		3F80F342C500737453F695BA33FD841D /* UILabel+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A94AF77356264FE73BCD0866D1460FD /* UILabel+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40646617233B01B0778B310FC1627FD8 /* UITableView+XXKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F9049F30F1CAF6E037754F277EE663B8 /* UITableView+XXKit.m */; };
+		42979936C668FB0E85963A53C440750A /* UITextView+XXPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8326A11E2C58B3357B878BF38B2EB8 /* UITextView+XXPlaceholder.m */; };
+		448E73606F3536FCECAEEF498A8564AC /* XXKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F4C74E7C7F8644BC001E92BEA2C136 /* XXKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48F79B651FEF26E7B44ECE74C2CEC19E /* XXAlertCtl.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D73782A80C1FC8CB1A053C06127BC3D /* XXAlertCtl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B2A110E36F9B52E1F4810417906A980 /* XXView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A8649DE5B453F0F975F7710BE710C4F /* XXView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C088A0F6198C729B70FFBA04FCA9053 /* Pods-XXLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 154F28F0786471C9743B0B1B6372DB24 /* Pods-XXLib_Tests-dummy.m */; };
-		4F33A8C5E0946563DA0EEB6C61E416EA /* XXCellProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 39803F75DF81D58AB3862AAA9523BA30 /* XXCellProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53D5202EE0056A85D39205C4A59FF9C0 /* NSDate+XXDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CA0710FE79DAECD4276FA85224085 /* NSDate+XXDate.m */; };
-		5FB37F682E686C08CF5C9C2B872D984B /* XXKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9387FF6542857969F9EA3CFB1D80EE5E /* XXKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61D770279F4FB566AF38078DA87D656C /* UIColor+XX_Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD84B33725D01E9BEE400600DE49945 /* UIColor+XX_Color.m */; };
-		68D896384295F0FEDDE3D5ADE1939E72 /* UITextView+XXPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 84393E65BCFC02DDD94F91544A8733EF /* UITextView+XXPlaceholder.m */; };
+		54F8EAA0861E3751B432B60FF699DA32 /* XXLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 461F2AA9A79405FDB6B00F161149C4A0 /* XXLib-dummy.m */; };
+		5739C298C53295FC000A0159BA649988 /* NSObject+XXCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = B60C29049B3E6B7353FE466698E6BD0C /* NSObject+XXCommon.m */; };
+		682326B3EFE0144401F0911373E7E2BE /* UITableView+XXKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D66069E73AC1C08B03C600C131ABB21F /* UITableView+XXKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D2CE04203DFAF1B5FFB67E828CEBC52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		6E1832029C8C3ED94136C9E14C5B6364 /* XXButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CAED6598FDEC266CAA3A6F7CAF4E6C /* XXButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FCCF13964D18A89D3ED8BEA1D9CEE5E /* XXView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F19A479B34C8A91749394BFBD96403D /* XXView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76435E60CA3250C520A0D2736288F597 /* UIView+XXToast.m in Sources */ = {isa = PBXBuildFile; fileRef = BC39DE7D3A1525D4A105B701386AAD39 /* UIView+XXToast.m */; };
-		7A3CCD009EE661179A3E299AF54B7F65 /* UIImage+XX_Image.h in Headers */ = {isa = PBXBuildFile; fileRef = FDAFF32F7C9DB363D0D62CD1941116B0 /* UIImage+XX_Image.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D4B5D3F38E34AA2F9816CFB6620B42D /* XXSingleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BFB03EEB9FD907A2C8F324A97D8A4C /* XXSingleTableView.m */; };
+		7401549DED9738F76CCFBF36562C003E /* UIView+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = A6743D269FD24C3AD6322F89B8D330A0 /* UIView+Empty.m */; };
+		77C41DA96F0CD63959DB7BB4EB794BBD /* UIColor+XX_Color.h in Headers */ = {isa = PBXBuildFile; fileRef = CCEE60E525C8DF499C1D67EA8F96EFD7 /* UIColor+XX_Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7808C177535BE4D2B4E1492E1716D9F9 /* XXAlertCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = BC74D8507A5E97ED22C6DABBD507713C /* XXAlertCtl.m */; };
+		7B30108F527BFFD586C27958B03938E6 /* UITextView+XXPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDE660E1E79771A16EA4083E373A069 /* UITextView+XXPlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BED37A7C803A4F92193EFF0C5993398 /* XXBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FA571C36D764CAB1F33C0C47EC40A4CE /* XXBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8680AE6BC8A31E6B380C8C38636E40E1 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E448A3EB68A5C498959D7DC8D50D209 /* UILabel+Extension.m */; };
 		885578F98054F58B97576BDA4C8E5F99 /* Pods-XXLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82AE486AFE622EA86E933465F24C81D5 /* Pods-XXLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B5BB3F58B43281D282B0420008EE51B /* XXSingleTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4276E06D40F690B0C5A72DFE180FD2D0 /* XXSingleTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D08A679C09CFEC4DBB06BBF0319E1D2 /* XXLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C58103FA41ED0F7144493A8F0D70C28 /* XXLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DF8A3F70B450DF988BE13F1084EEC56 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 321643C22423219A931EE350266BACCE /* UILabel+Extension.m */; };
-		8E0CCA54C3F9363440EE9CFF8E04DA64 /* UITableView+XXKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1C1CF0EABC92CAC96BF76A962AE9C4 /* UITableView+XXKit.m */; };
-		92429BF4739966006D329D4CAC531B28 /* NSDate+XXDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D362F4841015301AD1DAA1913AB4AC /* NSDate+XXDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A16BFDDF3E3B4651FB2D616589DEF6E1 /* NSObject+XXCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = FF14E57E428C3D3CBCFE8DF2F581FF99 /* NSObject+XXCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A49A62CE31C79151734C162FCF08685B /* UILabel+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F7FED85F3235EFA292C45C13D511D72 /* UILabel+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5A40E5C398B80E3CF4CCEE185587E1A /* XXTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 10DA3F81A73DBD185B44C3E91977CD2F /* XXTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C4A0C4BFC62D2416712966F8286FF65 /* UIColor+XX_Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5F7AB5915AC18C65B7A024E12B431D /* UIColor+XX_Color.m */; };
+		9E8C0C9734F34FCB6F86FD9CCEFC29A9 /* XXTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = F9024E1B2CA7230707245270BC87CA5D /* XXTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1CF88CD32CE3971A989ACBD898FD998 /* XXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884C088B43563D90B444D047ADFC1A0 /* XXButton.m */; };
+		A1F3EDCBED1093587330C80E69E3A6E0 /* XXSingleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A08D59922A939153BCCB06310D549A6E /* XXSingleTableView.m */; };
+		A4A18B4B7951EC0DE1279E8A13EBF781 /* UIView+Empty.h in Headers */ = {isa = PBXBuildFile; fileRef = 69896F57863E2DAEDD8763310BE3F917 /* UIView+Empty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9928FAB85759B190E0E143D678E044E /* XXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F1FBEF07E86AA9022512F23139B310 /* XXView.m */; };
+		AA5C0B4AA778AA45FACE1B4E1BC95916 /* UITableViewCell+XXCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD1AE051BED5450DADB4AFEDB41304 /* UITableViewCell+XXCell.m */; };
+		ABA2150F1E68A5D2D7C041A7470DBACE /* UIImage+XX_Image.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DB4CF7D7A414DCE9F5F9EF6A61E83F2 /* UIImage+XX_Image.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC5C829052403E04A3263A86B09FFFAC /* Pods-XXLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF5F95032593C286DB2C9D21A94831 /* Pods-XXLib_Example-dummy.m */; };
-		AD3B23678B27EC0EFC7539E910DC9ABA /* XXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CD4325B2E25323A3CCDB4AADF5DE30 /* XXTabBarController.m */; };
-		AEF7E515A1ED8860C35E5569D1828CE8 /* XXBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E42B59F9E94E72679C189025C93FBA61 /* XXBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9EECE1CD9A4D4E838510AA9C4747E70 /* UIImage+XX_Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 508FB36ABEFF8E38DD4A2FB2703EF66A /* UIImage+XX_Image.m */; };
+		AF8A0E2C9BA7F73C526941F1DD75262C /* XXTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFC977D2A433A6D24C8716D8624C1C3 /* XXTextField.m */; };
 		BACF05B86F2F6E355BC4B8B63CBF27A4 /* Pods-XXLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BFD59496F6A72EDF2FE2D27277A139A /* Pods-XXLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBCC2CEFD5BC1F904FF1860869EA4297 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E9AD4BF5F94AAFFE507732D461CA48D /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD66593A55EC4BA43882C85E19382CB9 /* XXImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 240FF4EA3DE5D2D26809D031AA4C33B2 /* XXImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD76311FB04409E1B859819BF3E76A86 /* XXAlertCtl.h in Headers */ = {isa = PBXBuildFile; fileRef = ECE1D3515EB45696BA48DCB8E8FADED3 /* XXAlertCtl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0663B0636917A30BE5291F0B8095455 /* UIColor+XX_Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D2902CA8CF2E15EF1DE8778DFC08F5E /* UIColor+XX_Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C39991D8041A2AE5AFB2040F62C6D709 /* XXBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7F7A999913E7735FCA733682BA669C /* XXBaseNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3DACB8E175272E003A8FF5B455405BF /* XXTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F04E7A333C367911EABE91C3D2885DB /* XXTableView.m */; };
 		C64A01C6CC06BE7D9F94DF28A1753E24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		D50883C40BE94E2D6CFF1CE47B413B63 /* XXBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D992E93FEB3DA147395D022AB6DEE7F8 /* XXBaseNavigationController.m */; };
-		D64F380CF246DE3044E1085754025342 /* XXTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 940FBF4A947F6EE1ADA2AACC5788710B /* XXTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8846C80B7457C0A622121C77F4F9A42 /* XXTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D4F0B523AFD9052BBB96B211354E1D /* XXTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8FB6EF6681EBA43C65DEAA3355C0B82 /* NSString+XXString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3022F0EDF14CC353B2691A4AD79996C0 /* NSString+XXString.m */; };
-		EBD0F75F7B4F68CC47A42FF738E37BD7 /* UITableViewCell+XXCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FF1902A9C7B4D421E1FF56A1EF140E /* UITableViewCell+XXCell.m */; };
-		ED215EC39C05D01BFE10C8DB11CB4DB0 /* XXGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40B2B8303C6772B3FA352BC270177F /* XXGuideViewController.m */; };
-		F0960D68B50D027CDAE744F929E79217 /* XXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B67F0F97D6C2B110891E57C2FAFCBB5 /* XXLabel.m */; };
-		F120CD5DC0811688809DDDADFF6D9CD5 /* XXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BDB4C0DB9ACAB55235D3CA3E42482C /* XXView.m */; };
-		F4CE693726435344BF26705760FE96CA /* XXUniversal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4616D1D85E8EA9B901EB572E24FF5107 /* XXUniversal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6FFE923E4F117F9B890DAA34FEF5C59 /* XXTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 379C3F892FCAC33F9E52DBD26F6666C7 /* XXTextField.m */; };
-		FAF67482CFDE3B8FF7B43E5EECB2D381 /* NSString+XXString.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D9D296DFCB4D2D16A632103A9D6447 /* NSString+XXString.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB14468692EB09D0C00E0E74CCBA4629 /* XXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E43EF3EB8C99FC292D358297374C04 /* XXBaseViewController.m */; };
+		C6540E995CB000A0D1CD6526180161FC /* XXViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08273BDB1A23E17537174FC56EC9548C /* XXViewCell.m */; };
+		C6CEF3D1A9B3B04275B3B9403946A69A /* XXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E368555B83221C92FD37C9893638BD6 /* XXBaseViewController.m */; };
+		C7D5085E7B63CC1953761D47E220FEC7 /* XXButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 05B792CCAFE96DBD4A672DC56AFBA2CA /* XXButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D27ADB1FDDC4D1EE7F4C423B44BE0524 /* XXCellProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF95EC9B53691EF754800805E463034 /* XXCellProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F826219153BC8252F2EF7078E996C5 /* UITableViewCell+XXCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B32795729FA41EBE69FCF6E61C7EFF /* UITableViewCell+XXCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7824380B4749AF7AE490027191850B1 /* XXGuideViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A8DCD107A1FE0B8F7E3F88280398E2 /* XXGuideViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E835CA0FA97D45A22351BACC1B6D4D0B /* XXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F47A0995BF03FEA43AED3EBD7E78546 /* XXTabBarController.m */; };
+		EAEE63E626FE9721C090B098B80157DB /* NSObject+XXCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F4BCFE1FC9C7B222DA614D8412851EF0 /* NSObject+XXCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE6DCB20F6635596CBC7ED5DA0A9F863 /* UIView+XXToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBF0B5D5C328B03B7FA1C1D9BAD8E19 /* UIView+XXToast.m */; };
+		F222B46C1BD013680B190DC23837E345 /* XXViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 04DFD757BB3BDC898FFC1D261A76DC49 /* XXViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F75804871C086A657B585C3C470B04E3 /* XXBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBF5F54C9F5D7591E35614577AB8194 /* XXBaseNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,91 +91,95 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0252609208FB01630EC0CC330DC2C8EB /* XXViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXViewCell.h; sourceTree = "<group>"; };
-		0B67F0F97D6C2B110891E57C2FAFCBB5 /* XXLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXLabel.m; sourceTree = "<group>"; };
-		0C58103FA41ED0F7144493A8F0D70C28 /* XXLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXLib-umbrella.h"; sourceTree = "<group>"; };
-		0E7C660B48D9FC6E5FE8B2FA7EB01BD1 /* XXLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XXLib.modulemap; sourceTree = "<group>"; };
-		10DA3F81A73DBD185B44C3E91977CD2F /* XXTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXTabBarController.h; sourceTree = "<group>"; };
-		11D4F0B523AFD9052BBB96B211354E1D /* XXTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXTableView.h; sourceTree = "<group>"; };
+		04DFD757BB3BDC898FFC1D261A76DC49 /* XXViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXViewCell.h; sourceTree = "<group>"; };
+		04E66E65F159E1124AC4027634E5166B /* NSString+XXString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+XXString.m"; sourceTree = "<group>"; };
+		05B792CCAFE96DBD4A672DC56AFBA2CA /* XXButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXButton.h; sourceTree = "<group>"; };
+		06A80B80D10F3A75F666BE4F57E8D7D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		08273BDB1A23E17537174FC56EC9548C /* XXViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXViewCell.m; sourceTree = "<group>"; };
 		1424A3314E4A5A39B3DD11791EC47A02 /* Pods_XXLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XXLib_Tests.framework; path = "Pods-XXLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		154F28F0786471C9743B0B1B6372DB24 /* Pods-XXLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XXLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		16333AD8B59ADE47FC9CB652AE632A72 /* UITableView+XXKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+XXKit.h"; sourceTree = "<group>"; };
-		1982BBE4CC4B417E9ABF1C5DA9C44B38 /* XXViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXViewCell.m; sourceTree = "<group>"; };
-		198910444642D1BCDC25303DD265E020 /* XXAlertCtl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXAlertCtl.m; sourceTree = "<group>"; };
-		1D2902CA8CF2E15EF1DE8778DFC08F5E /* UIColor+XX_Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+XX_Color.h"; sourceTree = "<group>"; };
-		240FF4EA3DE5D2D26809D031AA4C33B2 /* XXImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXImageView.h; sourceTree = "<group>"; };
-		25BDB4C0DB9ACAB55235D3CA3E42482C /* XXView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXView.m; sourceTree = "<group>"; };
-		3022F0EDF14CC353B2691A4AD79996C0 /* NSString+XXString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+XXString.m"; sourceTree = "<group>"; };
+		1F47A0995BF03FEA43AED3EBD7E78546 /* XXTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXTabBarController.m; sourceTree = "<group>"; };
+		1F5083E3735EA93EFAE90BBDC77DDDA6 /* XXLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XXLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F7F7A999913E7735FCA733682BA669C /* XXBaseNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXBaseNavigationController.h; sourceTree = "<group>"; };
+		2884C088B43563D90B444D047ADFC1A0 /* XXButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXButton.m; sourceTree = "<group>"; };
+		2D73782A80C1FC8CB1A053C06127BC3D /* XXAlertCtl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXAlertCtl.h; sourceTree = "<group>"; };
+		2DB4C1BDF84BCE6CC829AABE96204343 /* XXImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXImageView.h; sourceTree = "<group>"; };
 		3148E486771C74754947912CB2BF224C /* Pods-XXLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		31D9D296DFCB4D2D16A632103A9D6447 /* NSString+XXString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+XXString.h"; sourceTree = "<group>"; };
-		321643C22423219A931EE350266BACCE /* UILabel+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
 		32E02A2BB4CC66CA9F799AFB7A0BB61E /* Pods-XXLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XXLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		36335AD8181D6359D4DB55A826043836 /* XXLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XXLib.xcconfig; sourceTree = "<group>"; };
-		379C3F892FCAC33F9E52DBD26F6666C7 /* XXTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXTextField.m; sourceTree = "<group>"; };
-		3957C1DDC0DDBA969B135C344A301491 /* XXTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXTableView.m; sourceTree = "<group>"; };
-		39803F75DF81D58AB3862AAA9523BA30 /* XXCellProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXCellProtocol.h; sourceTree = "<group>"; };
+		3DB4CF7D7A414DCE9F5F9EF6A61E83F2 /* UIImage+XX_Image.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+XX_Image.h"; sourceTree = "<group>"; };
+		3E448A3EB68A5C498959D7DC8D50D209 /* UILabel+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
+		3EAD1AE051BED5450DADB4AFEDB41304 /* UITableViewCell+XXCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+XXCell.m"; sourceTree = "<group>"; };
+		3EFC977D2A433A6D24C8716D8624C1C3 /* XXTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXTextField.m; sourceTree = "<group>"; };
 		401C9B5706A2735008FC238E22888120 /* Pods-XXLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4276E06D40F690B0C5A72DFE180FD2D0 /* XXSingleTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXSingleTableView.h; sourceTree = "<group>"; };
-		4616D1D85E8EA9B901EB572E24FF5107 /* XXUniversal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XXUniversal.h; path = XXLib/Classes/XXLib/XXUniversal.h; sourceTree = "<group>"; };
+		459047EF0330F7A41BE6DCFDA3E7D190 /* XXLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXLib-umbrella.h"; sourceTree = "<group>"; };
+		461F2AA9A79405FDB6B00F161149C4A0 /* XXLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XXLib-dummy.m"; sourceTree = "<group>"; };
 		48F4BFBE46A3881F54EDDABCE6115709 /* Pods-XXLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4B8AFA052AE4932840040E2288F1FA0C /* XXLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXLib-prefix.pch"; sourceTree = "<group>"; };
-		4F19A479B34C8A91749394BFBD96403D /* XXView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXView.h; sourceTree = "<group>"; };
+		49B32795729FA41EBE69FCF6E61C7EFF /* UITableViewCell+XXCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+XXCell.h"; sourceTree = "<group>"; };
+		4C5F7AB5915AC18C65B7A024E12B431D /* UIColor+XX_Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XX_Color.m"; sourceTree = "<group>"; };
 		4F6ACA6C2921F199EFF483D812095BCC /* Pods-XXLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4F7FED85F3235EFA292C45C13D511D72 /* UILabel+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
-		508FB36ABEFF8E38DD4A2FB2703EF66A /* UIImage+XX_Image.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XX_Image.m"; sourceTree = "<group>"; };
-		54C1FEB3D460242C5C65D982BD3703C5 /* XXLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXLabel.h; sourceTree = "<group>"; };
+		52D9C83AE9DCAF2C1B968DC00918AB4A /* XXGuideViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXGuideViewController.m; sourceTree = "<group>"; };
+		53F4C74E7C7F8644BC001E92BEA2C136 /* XXKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XXKit.h; path = XXLib/Classes/XXLib/XXKit.h; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5BFD59496F6A72EDF2FE2D27277A139A /* Pods-XXLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XXLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		63BF5F95032593C286DB2C9D21A94831 /* Pods-XXLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XXLib_Example-dummy.m"; sourceTree = "<group>"; };
-		64A9654634640FC036B22863B84E15EF /* XXLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XXLib-dummy.m"; sourceTree = "<group>"; };
-		6FD84B33725D01E9BEE400600DE49945 /* UIColor+XX_Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XX_Color.m"; sourceTree = "<group>"; };
-		76A87E825145985D84B5BBB40106E953 /* XXGuideViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXGuideViewController.h; sourceTree = "<group>"; };
-		80CD4325B2E25323A3CCDB4AADF5DE30 /* XXTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXTabBarController.m; sourceTree = "<group>"; };
+		69896F57863E2DAEDD8763310BE3F917 /* UIView+Empty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Empty.h"; sourceTree = "<group>"; };
+		69F1FBEF07E86AA9022512F23139B310 /* XXView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXView.m; sourceTree = "<group>"; };
+		6B16271519D63940FC033BEFA33BD078 /* XXLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXLabel.h; sourceTree = "<group>"; };
+		6DBF0B5D5C328B03B7FA1C1D9BAD8E19 /* UIView+XXToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+XXToast.m"; sourceTree = "<group>"; };
 		82AE486AFE622EA86E933465F24C81D5 /* Pods-XXLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XXLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		842C610876958B4C5E78F8C3BAFE8B1E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		84393E65BCFC02DDD94F91544A8733EF /* UITextView+XXPlaceholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+XXPlaceholder.m"; sourceTree = "<group>"; };
-		88D362F4841015301AD1DAA1913AB4AC /* NSDate+XXDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+XXDate.h"; sourceTree = "<group>"; };
-		8A5CA0710FE79DAECD4276FA85224085 /* NSDate+XXDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XXDate.m"; sourceTree = "<group>"; };
+		87C17C8BFE8E7DC8D1E283AA3F41F7E3 /* XXTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXTabBarController.h; sourceTree = "<group>"; };
+		8A8649DE5B453F0F975F7710BE710C4F /* XXView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXView.h; sourceTree = "<group>"; };
+		8A94AF77356264FE73BCD0866D1460FD /* UILabel+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
 		8B0BF852478C4BB5FEBDAB4C90481F2A /* Pods-XXLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		90BFB03EEB9FD907A2C8F324A97D8A4C /* XXSingleTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXSingleTableView.m; sourceTree = "<group>"; };
-		92443B19A6704FF655A4C585458F2733 /* XXLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XXLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8C1D201CF98F879FCB1145937E93A262 /* NSDate+XXDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+XXDate.h"; sourceTree = "<group>"; };
+		8F04E7A333C367911EABE91C3D2885DB /* XXTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXTableView.m; sourceTree = "<group>"; };
 		9277B0BB799554074CF3343633424282 /* Pods-XXLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XXLib_Tests.modulemap"; sourceTree = "<group>"; };
 		932DACD2A45F9A67BDBFDD1DC83A0FE6 /* Pods-XXLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XXLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9387FF6542857969F9EA3CFB1D80EE5E /* XXKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XXKit.h; path = XXLib/Classes/XXLib/XXKit.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		940FBF4A947F6EE1ADA2AACC5788710B /* XXTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXTextField.h; sourceTree = "<group>"; };
-		9D3A42B0B921DB3EF1E8BFBAF796382C /* UIView+XXToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+XXToast.h"; sourceTree = "<group>"; };
-		9E9AD4BF5F94AAFFE507732D461CA48D /* UIView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		9C8326A11E2C58B3357B878BF38B2EB8 /* UITextView+XXPlaceholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+XXPlaceholder.m"; sourceTree = "<group>"; };
+		9E368555B83221C92FD37C9893638BD6 /* XXBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXBaseViewController.m; sourceTree = "<group>"; };
+		A08D59922A939153BCCB06310D549A6E /* XXSingleTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXSingleTableView.m; sourceTree = "<group>"; };
+		A16274D91C30CEAE71537B042DAC6175 /* NSString+XXString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+XXString.h"; sourceTree = "<group>"; };
+		A6743D269FD24C3AD6322F89B8D330A0 /* UIView+Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Empty.m"; sourceTree = "<group>"; };
 		A7B0D3EB21C27A7659C289223ECCEE95 /* Pods-XXLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A8257E9FC3D7BCEFCAB96D280DF38E2D /* Pods_XXLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XXLib_Example.framework; path = "Pods-XXLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F854977EE28E8EF3B5E1793977A94B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF95EC9B53691EF754800805E463034 /* XXCellProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXCellProtocol.h; sourceTree = "<group>"; };
 		ACC5B5DD18807A4C461B7AF180221E9E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE40B2B8303C6772B3FA352BC270177F /* XXGuideViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXGuideViewController.m; sourceTree = "<group>"; };
-		B2B3A13899B804CA0D696B7470A86667 /* UITextView+XXPlaceholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+XXPlaceholder.h"; sourceTree = "<group>"; };
-		B5EECBB6EE3677D7008EEA12EA5C303C /* XXBaseNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXBaseNavigationController.h; sourceTree = "<group>"; };
-		B7DAE500A230542E020C4C37DC54EC56 /* NSObject+XXCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XXCommon.m"; sourceTree = "<group>"; };
-		B84C7FECB6688A4E47A6105BDB1D1C85 /* UITableViewCell+XXCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+XXCell.h"; sourceTree = "<group>"; };
+		AF53C628B0EA550C75672EB539B5F442 /* UIImage+XX_Image.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XX_Image.m"; sourceTree = "<group>"; };
+		B1411CFDED2E1575C7951AAB32CB7438 /* XXImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXImageView.m; sourceTree = "<group>"; };
+		B60C29049B3E6B7353FE466698E6BD0C /* NSObject+XXCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XXCommon.m"; sourceTree = "<group>"; };
 		B8AA19CC7A3C4EC0586AB96ACAC1B2B8 /* Pods-XXLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XXLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BC39DE7D3A1525D4A105B701386AAD39 /* UIView+XXToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+XXToast.m"; sourceTree = "<group>"; };
+		BBA8426966CF2DB259CBE113D2D17AF4 /* UIView+Frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		BC74D8507A5E97ED22C6DABBD507713C /* XXAlertCtl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXAlertCtl.m; sourceTree = "<group>"; };
+		BCE30AF32D13B5FC9D9265235BA9B03C /* UIView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		C3A06FE6F5FB74CEA44532EF4A7946F6 /* Pods-XXLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XXLib_Example.modulemap"; sourceTree = "<group>"; };
-		C5AD2DF32431489B2F26EA47431F54A6 /* XXButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXButton.m; sourceTree = "<group>"; };
+		C6C05987B855E81A679D2AD86922FE4B /* XXLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XXLib.modulemap; sourceTree = "<group>"; };
+		C7BD9DB7BB69520C7D23639899F9DCBF /* XXLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXLabel.m; sourceTree = "<group>"; };
 		C7EA7188294A1CA3E9A842105F201D19 /* Pods-XXLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		CB4E8A27934CEEFB03CA4FDEBB54975F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CBDE660E1E79771A16EA4083E373A069 /* UITextView+XXPlaceholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+XXPlaceholder.h"; sourceTree = "<group>"; };
+		CCEE60E525C8DF499C1D67EA8F96EFD7 /* UIColor+XX_Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+XX_Color.h"; sourceTree = "<group>"; };
+		CE05359E42199C2A4F38008F56986905 /* XXUniversal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XXUniversal.h; path = XXLib/Classes/XXLib/XXUniversal.h; sourceTree = "<group>"; };
+		CE8F214D7E82EB0BEC7BD3EB201BE0E4 /* XXTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXTableView.h; sourceTree = "<group>"; };
 		D056F28AB1C6EBC617A1D1238B62269A /* Pods-XXLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXLib_Example-resources.sh"; sourceTree = "<group>"; };
-		D1CAED6598FDEC266CAA3A6F7CAF4E6C /* XXButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXButton.h; sourceTree = "<group>"; };
-		D2AA86128CC46AC42C669F69AA7363AB /* UIView+Frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
-		D767F824AF38A36C238E8684C26F4F35 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D992E93FEB3DA147395D022AB6DEE7F8 /* XXBaseNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXBaseNavigationController.m; sourceTree = "<group>"; };
-		E42B59F9E94E72679C189025C93FBA61 /* XXBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXBaseViewController.h; sourceTree = "<group>"; };
+		D33638DAA3214267A47A475B9EE086A7 /* NSObject+Language.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+Language.h"; sourceTree = "<group>"; };
+		D464DA430622C4F0BC875C55266304F3 /* XXLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XXLib.xcconfig; sourceTree = "<group>"; };
+		D5BDC962B1EF26002736A02E1B44D716 /* NSObject+Language.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Language.m"; sourceTree = "<group>"; };
+		D66069E73AC1C08B03C600C131ABB21F /* UITableView+XXKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+XXKit.h"; sourceTree = "<group>"; };
+		D6DDAA3CD7D59D727543CE76BF1C85FC /* NSDate+XXDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XXDate.m"; sourceTree = "<group>"; };
+		DD7BD085D40EB6B814DAFA6289E771CC /* UIView+XXToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+XXToast.h"; sourceTree = "<group>"; };
+		E688D02AC9173EC44CCEA6598CEF920C /* XXSingleTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXSingleTableView.h; sourceTree = "<group>"; };
 		E68CFA4F9969763BC589916848189CA9 /* XXLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XXLib.framework; path = XXLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECE1D3515EB45696BA48DCB8E8FADED3 /* XXAlertCtl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXAlertCtl.h; sourceTree = "<group>"; };
+		EBBF5F54C9F5D7591E35614577AB8194 /* XXBaseNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXBaseNavigationController.m; sourceTree = "<group>"; };
 		F11C88800F0AE441214A34ED7C5ECED1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3B7BE3BCFA03057797920F10325B3FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21934DBCA1414EABF4777D85CD4FEA9 /* XXLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXLib-prefix.pch"; sourceTree = "<group>"; };
+		F4BCFE1FC9C7B222DA614D8412851EF0 /* NSObject+XXCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+XXCommon.h"; sourceTree = "<group>"; };
+		F5A8DCD107A1FE0B8F7E3F88280398E2 /* XXGuideViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXGuideViewController.h; sourceTree = "<group>"; };
 		F5D64A33B5C9E5E488489CCB07780E1F /* Pods-XXLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XXLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F6E43EF3EB8C99FC292D358297374C04 /* XXBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXBaseViewController.m; sourceTree = "<group>"; };
-		F7FF1902A9C7B4D421E1FF56A1EF140E /* UITableViewCell+XXCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+XXCell.m"; sourceTree = "<group>"; };
-		FA7D8C5097C8EA0E24AEADD8A186CBB7 /* XXImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXImageView.m; sourceTree = "<group>"; };
-		FB1C1CF0EABC92CAC96BF76A962AE9C4 /* UITableView+XXKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+XXKit.m"; sourceTree = "<group>"; };
-		FDAFF32F7C9DB363D0D62CD1941116B0 /* UIImage+XX_Image.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+XX_Image.h"; sourceTree = "<group>"; };
-		FF14E57E428C3D3CBCFE8DF2F581FF99 /* NSObject+XXCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+XXCommon.h"; sourceTree = "<group>"; };
+		F9024E1B2CA7230707245270BC87CA5D /* XXTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXTextField.h; sourceTree = "<group>"; };
+		F9049F30F1CAF6E037754F277EE663B8 /* UITableView+XXKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+XXKit.m"; sourceTree = "<group>"; };
+		FA571C36D764CAB1F33C0C47EC40A4CE /* XXBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXBaseViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,85 +219,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2BCDB1EE2DE7C7ABAD8BC21B4B4A1A22 /* Support Files */ = {
+		35E7956AB68CAA8AE7A7C97D6FE36583 /* XXLib */ = {
 			isa = PBXGroup;
 			children = (
-				F3B7BE3BCFA03057797920F10325B3FC /* Info.plist */,
-				0E7C660B48D9FC6E5FE8B2FA7EB01BD1 /* XXLib.modulemap */,
-				36335AD8181D6359D4DB55A826043836 /* XXLib.xcconfig */,
-				64A9654634640FC036B22863B84E15EF /* XXLib-dummy.m */,
-				4B8AFA052AE4932840040E2288F1FA0C /* XXLib-prefix.pch */,
-				0C58103FA41ED0F7144493A8F0D70C28 /* XXLib-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XXLib";
-			sourceTree = "<group>";
-		};
-		31177C8864E0A4C9789BABA3863DEBA1 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				88D362F4841015301AD1DAA1913AB4AC /* NSDate+XXDate.h */,
-				8A5CA0710FE79DAECD4276FA85224085 /* NSDate+XXDate.m */,
-				FF14E57E428C3D3CBCFE8DF2F581FF99 /* NSObject+XXCommon.h */,
-				B7DAE500A230542E020C4C37DC54EC56 /* NSObject+XXCommon.m */,
-				31D9D296DFCB4D2D16A632103A9D6447 /* NSString+XXString.h */,
-				3022F0EDF14CC353B2691A4AD79996C0 /* NSString+XXString.m */,
-				1D2902CA8CF2E15EF1DE8778DFC08F5E /* UIColor+XX_Color.h */,
-				6FD84B33725D01E9BEE400600DE49945 /* UIColor+XX_Color.m */,
-				FDAFF32F7C9DB363D0D62CD1941116B0 /* UIImage+XX_Image.h */,
-				508FB36ABEFF8E38DD4A2FB2703EF66A /* UIImage+XX_Image.m */,
-				4F7FED85F3235EFA292C45C13D511D72 /* UILabel+Extension.h */,
-				321643C22423219A931EE350266BACCE /* UILabel+Extension.m */,
-				16333AD8B59ADE47FC9CB652AE632A72 /* UITableView+XXKit.h */,
-				FB1C1CF0EABC92CAC96BF76A962AE9C4 /* UITableView+XXKit.m */,
-				B2B3A13899B804CA0D696B7470A86667 /* UITextView+XXPlaceholder.h */,
-				84393E65BCFC02DDD94F91544A8733EF /* UITextView+XXPlaceholder.m */,
-				9E9AD4BF5F94AAFFE507732D461CA48D /* UIView+Frame.h */,
-				D2AA86128CC46AC42C669F69AA7363AB /* UIView+Frame.m */,
-				9D3A42B0B921DB3EF1E8BFBAF796382C /* UIView+XXToast.h */,
-				BC39DE7D3A1525D4A105B701386AAD39 /* UIView+XXToast.m */,
-			);
-			name = Category;
-			path = XXLib/Classes/XXLib/Category;
-			sourceTree = "<group>";
-		};
-		3A14B7387AD90183D5BEF3673AE37964 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3AA623FC5412D6AB402BE44C4F2BAF1E /* XXLib */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3AA623FC5412D6AB402BE44C4F2BAF1E /* XXLib */ = {
-			isa = PBXGroup;
-			children = (
-				9387FF6542857969F9EA3CFB1D80EE5E /* XXKit.h */,
-				4616D1D85E8EA9B901EB572E24FF5107 /* XXUniversal.h */,
-				31177C8864E0A4C9789BABA3863DEBA1 /* Category */,
-				CE452884CDC178B31E084C91A4FFDF4A /* Pod */,
-				2BCDB1EE2DE7C7ABAD8BC21B4B4A1A22 /* Support Files */,
-				5A796939E92130A8A91D859414793DFF /* XXBaseViewController */,
-				C76D8CFEAC17C833F5851FE46A30B165 /* XXView */,
+				53F4C74E7C7F8644BC001E92BEA2C136 /* XXKit.h */,
+				CE05359E42199C2A4F38008F56986905 /* XXUniversal.h */,
+				886C291BA4CB903BC47FCE411EDFD804 /* Category */,
+				F4892248767A33272AA06528D6D99054 /* Pod */,
+				E4144523B8C2257864A99715D589C102 /* Support Files */,
+				ED9154F7AEE2F37877995FE45B9B81D0 /* XXBaseViewController */,
+				9C35C62F0474DFCF19C18583CFB11EAB /* XXView */,
 			);
 			name = XXLib;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		5A796939E92130A8A91D859414793DFF /* XXBaseViewController */ = {
+		3A14B7387AD90183D5BEF3673AE37964 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B5EECBB6EE3677D7008EEA12EA5C303C /* XXBaseNavigationController.h */,
-				D992E93FEB3DA147395D022AB6DEE7F8 /* XXBaseNavigationController.m */,
-				E42B59F9E94E72679C189025C93FBA61 /* XXBaseViewController.h */,
-				F6E43EF3EB8C99FC292D358297374C04 /* XXBaseViewController.m */,
-				76A87E825145985D84B5BBB40106E953 /* XXGuideViewController.h */,
-				AE40B2B8303C6772B3FA352BC270177F /* XXGuideViewController.m */,
-				10DA3F81A73DBD185B44C3E91977CD2F /* XXTabBarController.h */,
-				80CD4325B2E25323A3CCDB4AADF5DE30 /* XXTabBarController.m */,
+				35E7956AB68CAA8AE7A7C97D6FE36583 /* XXLib */,
 			);
-			name = XXBaseViewController;
-			path = XXLib/Classes/XXLib/XXBaseViewController;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -329,6 +279,38 @@
 			);
 			sourceTree = "<group>";
 		};
+		886C291BA4CB903BC47FCE411EDFD804 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8C1D201CF98F879FCB1145937E93A262 /* NSDate+XXDate.h */,
+				D6DDAA3CD7D59D727543CE76BF1C85FC /* NSDate+XXDate.m */,
+				D33638DAA3214267A47A475B9EE086A7 /* NSObject+Language.h */,
+				D5BDC962B1EF26002736A02E1B44D716 /* NSObject+Language.m */,
+				F4BCFE1FC9C7B222DA614D8412851EF0 /* NSObject+XXCommon.h */,
+				B60C29049B3E6B7353FE466698E6BD0C /* NSObject+XXCommon.m */,
+				A16274D91C30CEAE71537B042DAC6175 /* NSString+XXString.h */,
+				04E66E65F159E1124AC4027634E5166B /* NSString+XXString.m */,
+				CCEE60E525C8DF499C1D67EA8F96EFD7 /* UIColor+XX_Color.h */,
+				4C5F7AB5915AC18C65B7A024E12B431D /* UIColor+XX_Color.m */,
+				3DB4CF7D7A414DCE9F5F9EF6A61E83F2 /* UIImage+XX_Image.h */,
+				AF53C628B0EA550C75672EB539B5F442 /* UIImage+XX_Image.m */,
+				8A94AF77356264FE73BCD0866D1460FD /* UILabel+Extension.h */,
+				3E448A3EB68A5C498959D7DC8D50D209 /* UILabel+Extension.m */,
+				D66069E73AC1C08B03C600C131ABB21F /* UITableView+XXKit.h */,
+				F9049F30F1CAF6E037754F277EE663B8 /* UITableView+XXKit.m */,
+				CBDE660E1E79771A16EA4083E373A069 /* UITextView+XXPlaceholder.h */,
+				9C8326A11E2C58B3357B878BF38B2EB8 /* UITextView+XXPlaceholder.m */,
+				69896F57863E2DAEDD8763310BE3F917 /* UIView+Empty.h */,
+				A6743D269FD24C3AD6322F89B8D330A0 /* UIView+Empty.m */,
+				BCE30AF32D13B5FC9D9265235BA9B03C /* UIView+Frame.h */,
+				BBA8426966CF2DB259CBE113D2D17AF4 /* UIView+Frame.m */,
+				DD7BD085D40EB6B814DAFA6289E771CC /* UIView+XXToast.h */,
+				6DBF0B5D5C328B03B7FA1C1D9BAD8E19 /* UIView+XXToast.m */,
+			);
+			name = Category;
+			path = XXLib/Classes/XXLib/Category;
+			sourceTree = "<group>";
+		};
 		939645A004BE36F382DBF255D5C93EC4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,6 +319,35 @@
 				E68CFA4F9969763BC589916848189CA9 /* XXLib.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9C35C62F0474DFCF19C18583CFB11EAB /* XXView */ = {
+			isa = PBXGroup;
+			children = (
+				49B32795729FA41EBE69FCF6E61C7EFF /* UITableViewCell+XXCell.h */,
+				3EAD1AE051BED5450DADB4AFEDB41304 /* UITableViewCell+XXCell.m */,
+				2D73782A80C1FC8CB1A053C06127BC3D /* XXAlertCtl.h */,
+				BC74D8507A5E97ED22C6DABBD507713C /* XXAlertCtl.m */,
+				05B792CCAFE96DBD4A672DC56AFBA2CA /* XXButton.h */,
+				2884C088B43563D90B444D047ADFC1A0 /* XXButton.m */,
+				ABF95EC9B53691EF754800805E463034 /* XXCellProtocol.h */,
+				2DB4C1BDF84BCE6CC829AABE96204343 /* XXImageView.h */,
+				B1411CFDED2E1575C7951AAB32CB7438 /* XXImageView.m */,
+				6B16271519D63940FC033BEFA33BD078 /* XXLabel.h */,
+				C7BD9DB7BB69520C7D23639899F9DCBF /* XXLabel.m */,
+				E688D02AC9173EC44CCEA6598CEF920C /* XXSingleTableView.h */,
+				A08D59922A939153BCCB06310D549A6E /* XXSingleTableView.m */,
+				CE8F214D7E82EB0BEC7BD3EB201BE0E4 /* XXTableView.h */,
+				8F04E7A333C367911EABE91C3D2885DB /* XXTableView.m */,
+				F9024E1B2CA7230707245270BC87CA5D /* XXTextField.h */,
+				3EFC977D2A433A6D24C8716D8624C1C3 /* XXTextField.m */,
+				8A8649DE5B453F0F975F7710BE710C4F /* XXView.h */,
+				69F1FBEF07E86AA9022512F23139B310 /* XXView.m */,
+				04DFD757BB3BDC898FFC1D261A76DC49 /* XXViewCell.h */,
+				08273BDB1A23E17537174FC56EC9548C /* XXViewCell.m */,
+			);
+			name = XXView;
+			path = XXLib/Classes/XXLib/XXView;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -365,41 +376,42 @@
 			path = "Target Support Files/Pods-XXLib_Tests";
 			sourceTree = "<group>";
 		};
-		C76D8CFEAC17C833F5851FE46A30B165 /* XXView */ = {
+		E4144523B8C2257864A99715D589C102 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B84C7FECB6688A4E47A6105BDB1D1C85 /* UITableViewCell+XXCell.h */,
-				F7FF1902A9C7B4D421E1FF56A1EF140E /* UITableViewCell+XXCell.m */,
-				ECE1D3515EB45696BA48DCB8E8FADED3 /* XXAlertCtl.h */,
-				198910444642D1BCDC25303DD265E020 /* XXAlertCtl.m */,
-				D1CAED6598FDEC266CAA3A6F7CAF4E6C /* XXButton.h */,
-				C5AD2DF32431489B2F26EA47431F54A6 /* XXButton.m */,
-				39803F75DF81D58AB3862AAA9523BA30 /* XXCellProtocol.h */,
-				240FF4EA3DE5D2D26809D031AA4C33B2 /* XXImageView.h */,
-				FA7D8C5097C8EA0E24AEADD8A186CBB7 /* XXImageView.m */,
-				54C1FEB3D460242C5C65D982BD3703C5 /* XXLabel.h */,
-				0B67F0F97D6C2B110891E57C2FAFCBB5 /* XXLabel.m */,
-				4276E06D40F690B0C5A72DFE180FD2D0 /* XXSingleTableView.h */,
-				90BFB03EEB9FD907A2C8F324A97D8A4C /* XXSingleTableView.m */,
-				11D4F0B523AFD9052BBB96B211354E1D /* XXTableView.h */,
-				3957C1DDC0DDBA969B135C344A301491 /* XXTableView.m */,
-				940FBF4A947F6EE1ADA2AACC5788710B /* XXTextField.h */,
-				379C3F892FCAC33F9E52DBD26F6666C7 /* XXTextField.m */,
-				4F19A479B34C8A91749394BFBD96403D /* XXView.h */,
-				25BDB4C0DB9ACAB55235D3CA3E42482C /* XXView.m */,
-				0252609208FB01630EC0CC330DC2C8EB /* XXViewCell.h */,
-				1982BBE4CC4B417E9ABF1C5DA9C44B38 /* XXViewCell.m */,
+				A9F854977EE28E8EF3B5E1793977A94B /* Info.plist */,
+				C6C05987B855E81A679D2AD86922FE4B /* XXLib.modulemap */,
+				D464DA430622C4F0BC875C55266304F3 /* XXLib.xcconfig */,
+				461F2AA9A79405FDB6B00F161149C4A0 /* XXLib-dummy.m */,
+				F21934DBCA1414EABF4777D85CD4FEA9 /* XXLib-prefix.pch */,
+				459047EF0330F7A41BE6DCFDA3E7D190 /* XXLib-umbrella.h */,
 			);
-			name = XXView;
-			path = XXLib/Classes/XXLib/XXView;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XXLib";
 			sourceTree = "<group>";
 		};
-		CE452884CDC178B31E084C91A4FFDF4A /* Pod */ = {
+		ED9154F7AEE2F37877995FE45B9B81D0 /* XXBaseViewController */ = {
 			isa = PBXGroup;
 			children = (
-				D767F824AF38A36C238E8684C26F4F35 /* LICENSE */,
-				842C610876958B4C5E78F8C3BAFE8B1E /* README.md */,
-				92443B19A6704FF655A4C585458F2733 /* XXLib.podspec */,
+				1F7F7A999913E7735FCA733682BA669C /* XXBaseNavigationController.h */,
+				EBBF5F54C9F5D7591E35614577AB8194 /* XXBaseNavigationController.m */,
+				FA571C36D764CAB1F33C0C47EC40A4CE /* XXBaseViewController.h */,
+				9E368555B83221C92FD37C9893638BD6 /* XXBaseViewController.m */,
+				F5A8DCD107A1FE0B8F7E3F88280398E2 /* XXGuideViewController.h */,
+				52D9C83AE9DCAF2C1B968DC00918AB4A /* XXGuideViewController.m */,
+				87C17C8BFE8E7DC8D1E283AA3F41F7E3 /* XXTabBarController.h */,
+				1F47A0995BF03FEA43AED3EBD7E78546 /* XXTabBarController.m */,
+			);
+			name = XXBaseViewController;
+			path = XXLib/Classes/XXLib/XXBaseViewController;
+			sourceTree = "<group>";
+		};
+		F4892248767A33272AA06528D6D99054 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				06A80B80D10F3A75F666BE4F57E8D7D8 /* LICENSE */,
+				CB4E8A27934CEEFB03CA4FDEBB54975F /* README.md */,
+				1F5083E3735EA93EFAE90BBDC77DDDA6 /* XXLib.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -407,38 +419,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5A778BD51DC7BC3DADC5252CDDD72EC7 /* Headers */ = {
+		4B84EE85EF584B218DA794909A310966 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92429BF4739966006D329D4CAC531B28 /* NSDate+XXDate.h in Headers */,
-				A16BFDDF3E3B4651FB2D616589DEF6E1 /* NSObject+XXCommon.h in Headers */,
-				FAF67482CFDE3B8FF7B43E5EECB2D381 /* NSString+XXString.h in Headers */,
-				C0663B0636917A30BE5291F0B8095455 /* UIColor+XX_Color.h in Headers */,
-				7A3CCD009EE661179A3E299AF54B7F65 /* UIImage+XX_Image.h in Headers */,
-				A49A62CE31C79151734C162FCF08685B /* UILabel+Extension.h in Headers */,
-				1DCA927038A3B9CBD5AA5E0B89BB22EF /* UITableView+XXKit.h in Headers */,
-				3BE4B584DB58D61B371C093093B00916 /* UITableViewCell+XXCell.h in Headers */,
-				382CF18AE20AF523423A206AA682A3B6 /* UITextView+XXPlaceholder.h in Headers */,
-				BBCC2CEFD5BC1F904FF1860869EA4297 /* UIView+Frame.h in Headers */,
-				1457C972EC18D2AB4B55EC03A8BB97DF /* UIView+XXToast.h in Headers */,
-				BD76311FB04409E1B859819BF3E76A86 /* XXAlertCtl.h in Headers */,
-				2440286DC98CD6D4F96AD8C6A51DB24A /* XXBaseNavigationController.h in Headers */,
-				AEF7E515A1ED8860C35E5569D1828CE8 /* XXBaseViewController.h in Headers */,
-				6E1832029C8C3ED94136C9E14C5B6364 /* XXButton.h in Headers */,
-				4F33A8C5E0946563DA0EEB6C61E416EA /* XXCellProtocol.h in Headers */,
-				40797A64E416FD12863DA17DAE88EB19 /* XXGuideViewController.h in Headers */,
-				BD66593A55EC4BA43882C85E19382CB9 /* XXImageView.h in Headers */,
-				5FB37F682E686C08CF5C9C2B872D984B /* XXKit.h in Headers */,
-				25D2E75B145D92866FF190A20C2B0A51 /* XXLabel.h in Headers */,
-				8D08A679C09CFEC4DBB06BBF0319E1D2 /* XXLib-umbrella.h in Headers */,
-				8B5BB3F58B43281D282B0420008EE51B /* XXSingleTableView.h in Headers */,
-				A5A40E5C398B80E3CF4CCEE185587E1A /* XXTabBarController.h in Headers */,
-				E8846C80B7457C0A622121C77F4F9A42 /* XXTableView.h in Headers */,
-				D64F380CF246DE3044E1085754025342 /* XXTextField.h in Headers */,
-				F4CE693726435344BF26705760FE96CA /* XXUniversal.h in Headers */,
-				6FCCF13964D18A89D3ED8BEA1D9CEE5E /* XXView.h in Headers */,
-				0A7C9439071CE61B87D067D0B4EE7071 /* XXViewCell.h in Headers */,
+				323D654054F544259D95DBE141EA327C /* NSDate+XXDate.h in Headers */,
+				0C5DE06F5CE6099C02E0B149510ABFB0 /* NSObject+Language.h in Headers */,
+				EAEE63E626FE9721C090B098B80157DB /* NSObject+XXCommon.h in Headers */,
+				2524279FBE6105BFD823C165E3509C31 /* NSString+XXString.h in Headers */,
+				77C41DA96F0CD63959DB7BB4EB794BBD /* UIColor+XX_Color.h in Headers */,
+				ABA2150F1E68A5D2D7C041A7470DBACE /* UIImage+XX_Image.h in Headers */,
+				3F80F342C500737453F695BA33FD841D /* UILabel+Extension.h in Headers */,
+				682326B3EFE0144401F0911373E7E2BE /* UITableView+XXKit.h in Headers */,
+				D9F826219153BC8252F2EF7078E996C5 /* UITableViewCell+XXCell.h in Headers */,
+				7B30108F527BFFD586C27958B03938E6 /* UITextView+XXPlaceholder.h in Headers */,
+				A4A18B4B7951EC0DE1279E8A13EBF781 /* UIView+Empty.h in Headers */,
+				319910C779F41A9402377182050D7DD2 /* UIView+Frame.h in Headers */,
+				1E6850D8AD04C27F606CF9D273E0380E /* UIView+XXToast.h in Headers */,
+				48F79B651FEF26E7B44ECE74C2CEC19E /* XXAlertCtl.h in Headers */,
+				C39991D8041A2AE5AFB2040F62C6D709 /* XXBaseNavigationController.h in Headers */,
+				7BED37A7C803A4F92193EFF0C5993398 /* XXBaseViewController.h in Headers */,
+				C7D5085E7B63CC1953761D47E220FEC7 /* XXButton.h in Headers */,
+				D27ADB1FDDC4D1EE7F4C423B44BE0524 /* XXCellProtocol.h in Headers */,
+				E7824380B4749AF7AE490027191850B1 /* XXGuideViewController.h in Headers */,
+				0270DF6291B0782289AC403A9FEA06AB /* XXImageView.h in Headers */,
+				448E73606F3536FCECAEEF498A8564AC /* XXKit.h in Headers */,
+				137872E2475427F022CB2B62A14118DB /* XXLabel.h in Headers */,
+				0964BB08CF1C9C529B59A536AB0A1420 /* XXLib-umbrella.h in Headers */,
+				3B4B050B3C05632C22C2765CD56C10EC /* XXSingleTableView.h in Headers */,
+				3A229D9780FDC2604999FAE5B7826E8F /* XXTabBarController.h in Headers */,
+				303A40CBE43A1D8EA9C420132B7CD8AC /* XXTableView.h in Headers */,
+				9E8C0C9734F34FCB6F86FD9CCEFC29A9 /* XXTextField.h in Headers */,
+				1F63CBA10BA074D43BE458A9DC0BAA27 /* XXUniversal.h in Headers */,
+				4B2A110E36F9B52E1F4810417906A980 /* XXView.h in Headers */,
+				F222B46C1BD013680B190DC23837E345 /* XXViewCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,8 +479,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01CF21FFD8496DC84B0C5724DF8D4C21 /* Build configuration list for PBXNativeTarget "XXLib" */;
 			buildPhases = (
-				5A778BD51DC7BC3DADC5252CDDD72EC7 /* Headers */,
-				DF58E721E80414A68A0C97004E473847 /* Sources */,
+				4B84EE85EF584B218DA794909A310966 /* Headers */,
+				FE5448B5D29185276694F77A5151C781 /* Sources */,
 				300FA30ABAC5AA44448037CC96A89B8A /* Frameworks */,
 				8F3B4C853BB6B5E5880EF30D7FC70F41 /* Resources */,
 			);
@@ -586,35 +600,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF58E721E80414A68A0C97004E473847 /* Sources */ = {
+		FE5448B5D29185276694F77A5151C781 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53D5202EE0056A85D39205C4A59FF9C0 /* NSDate+XXDate.m in Sources */,
-				4A4E8ACD1E4665BA0D670529335E1B04 /* NSObject+XXCommon.m in Sources */,
-				E8FB6EF6681EBA43C65DEAA3355C0B82 /* NSString+XXString.m in Sources */,
-				61D770279F4FB566AF38078DA87D656C /* UIColor+XX_Color.m in Sources */,
-				B9EECE1CD9A4D4E838510AA9C4747E70 /* UIImage+XX_Image.m in Sources */,
-				8DF8A3F70B450DF988BE13F1084EEC56 /* UILabel+Extension.m in Sources */,
-				8E0CCA54C3F9363440EE9CFF8E04DA64 /* UITableView+XXKit.m in Sources */,
-				EBD0F75F7B4F68CC47A42FF738E37BD7 /* UITableViewCell+XXCell.m in Sources */,
-				68D896384295F0FEDDE3D5ADE1939E72 /* UITextView+XXPlaceholder.m in Sources */,
-				0CABDED7FD98E13A6B1595560FDA16F1 /* UIView+Frame.m in Sources */,
-				76435E60CA3250C520A0D2736288F597 /* UIView+XXToast.m in Sources */,
-				2580A33BBCD90216B260163102F55CE5 /* XXAlertCtl.m in Sources */,
-				D50883C40BE94E2D6CFF1CE47B413B63 /* XXBaseNavigationController.m in Sources */,
-				FB14468692EB09D0C00E0E74CCBA4629 /* XXBaseViewController.m in Sources */,
-				26082C0C5BB64B6DFA62230C9BE3DE93 /* XXButton.m in Sources */,
-				ED215EC39C05D01BFE10C8DB11CB4DB0 /* XXGuideViewController.m in Sources */,
-				271359D77895FE7B60451141FCF54122 /* XXImageView.m in Sources */,
-				F0960D68B50D027CDAE744F929E79217 /* XXLabel.m in Sources */,
-				0817BE7A075F0C1A5A79FE315F585B51 /* XXLib-dummy.m in Sources */,
-				7D4B5D3F38E34AA2F9816CFB6620B42D /* XXSingleTableView.m in Sources */,
-				AD3B23678B27EC0EFC7539E910DC9ABA /* XXTabBarController.m in Sources */,
-				07225E84BF711CFE11C9E34B204E4A20 /* XXTableView.m in Sources */,
-				F6FFE923E4F117F9B890DAA34FEF5C59 /* XXTextField.m in Sources */,
-				F120CD5DC0811688809DDDADFF6D9CD5 /* XXView.m in Sources */,
-				17C818DF13BFF1B876BE1DB03760C8D4 /* XXViewCell.m in Sources */,
+				1EB2E8F31156FFC96BCA7492AA13A2B6 /* NSDate+XXDate.m in Sources */,
+				15346C78E47FDEF3AB918038B341CBA6 /* NSObject+Language.m in Sources */,
+				5739C298C53295FC000A0159BA649988 /* NSObject+XXCommon.m in Sources */,
+				3185A28F7CFC16A87FF75DFA33146279 /* NSString+XXString.m in Sources */,
+				9C4A0C4BFC62D2416712966F8286FF65 /* UIColor+XX_Color.m in Sources */,
+				04A4B5D4D9654BE05271F79AFCE657F5 /* UIImage+XX_Image.m in Sources */,
+				8680AE6BC8A31E6B380C8C38636E40E1 /* UILabel+Extension.m in Sources */,
+				40646617233B01B0778B310FC1627FD8 /* UITableView+XXKit.m in Sources */,
+				AA5C0B4AA778AA45FACE1B4E1BC95916 /* UITableViewCell+XXCell.m in Sources */,
+				42979936C668FB0E85963A53C440750A /* UITextView+XXPlaceholder.m in Sources */,
+				7401549DED9738F76CCFBF36562C003E /* UIView+Empty.m in Sources */,
+				1CE2D2E3DD19D294A1510481C89BF244 /* UIView+Frame.m in Sources */,
+				EE6DCB20F6635596CBC7ED5DA0A9F863 /* UIView+XXToast.m in Sources */,
+				7808C177535BE4D2B4E1492E1716D9F9 /* XXAlertCtl.m in Sources */,
+				F75804871C086A657B585C3C470B04E3 /* XXBaseNavigationController.m in Sources */,
+				C6CEF3D1A9B3B04275B3B9403946A69A /* XXBaseViewController.m in Sources */,
+				A1CF88CD32CE3971A989ACBD898FD998 /* XXButton.m in Sources */,
+				3F3DE47396712407A14DE954101C60C2 /* XXGuideViewController.m in Sources */,
+				084C0C4825C05B154AADAF258AE098D1 /* XXImageView.m in Sources */,
+				37492B978CD4B97E6161D93F5DB8A6F4 /* XXLabel.m in Sources */,
+				54F8EAA0861E3751B432B60FF699DA32 /* XXLib-dummy.m in Sources */,
+				A1F3EDCBED1093587330C80E69E3A6E0 /* XXSingleTableView.m in Sources */,
+				E835CA0FA97D45A22351BACC1B6D4D0B /* XXTabBarController.m in Sources */,
+				C3DACB8E175272E003A8FF5B455405BF /* XXTableView.m in Sources */,
+				AF8A0E2C9BA7F73C526941F1DD75262C /* XXTextField.m in Sources */,
+				A9928FAB85759B190E0E143D678E044E /* XXView.m in Sources */,
+				C6540E995CB000A0D1CD6526180161FC /* XXViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,7 +687,7 @@
 		};
 		6CE418BB8F11D46FB5E7063618BFB583 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36335AD8181D6359D4DB55A826043836 /* XXLib.xcconfig */;
+			baseConfigurationReference = D464DA430622C4F0BC875C55266304F3 /* XXLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -926,7 +942,7 @@
 		};
 		FC5C9C368FDEF5FF4CB7B02CE27D8C64 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36335AD8181D6359D4DB55A826043836 /* XXLib.xcconfig */;
+			baseConfigurationReference = D464DA430622C4F0BC875C55266304F3 /* XXLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -31,5 +31,8 @@
 #import "UITableViewCell+XXCell.h"
 #import "XXCellProtocol.h"
 #import "UITextView+XXPlaceholder.h"
+#import "NSObject+Language.h"
+#import "UIView+Empty.h"
+
 
 #endif /* XXKit_h */

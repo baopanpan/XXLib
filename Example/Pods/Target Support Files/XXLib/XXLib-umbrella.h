@@ -11,6 +11,7 @@
 #endif
 
 #import "NSDate+XXDate.h"
+#import "NSObject+Language.h"
 #import "NSObject+XXCommon.h"
 #import "NSString+XXString.h"
 #import "UIColor+XX_Color.h"
@@ -18,6 +19,7 @@
 #import "UILabel+Extension.h"
 #import "UITableView+XXKit.h"
 #import "UITextView+XXPlaceholder.h"
+#import "UIView+Empty.h"
 #import "UIView+Frame.h"
 #import "UIView+XXToast.h"
 #import "XXBaseNavigationController.h"
